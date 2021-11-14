@@ -3,74 +3,72 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Igor Padoim
+    tagline: Médico Generalista
+    avatar: me.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    email: contato@padoim.com
+    phone:
+    website: padoim.com
+    linkedin: igorpadoim
+    xing:
+    github: Nereare
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter: # '@Nereare'
+    stack-overflow: 3384352/nereare
     codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    goodreads: 50615326-igor-padoim
+    pdf: assets/images/cv.pdf
 
     languages:
-      - idiom: English
-        level: Native
+      - idiom: Português
+        level: Nativo
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
+      - idiom: Inglês
         level: Professional
 
     interests:
-      - item: Climbing
+      - item: Leitura
         link:
 
-      - item: Snowboarding
+      - item: RPG
         link:
 
-      - item: Cooking
+      - item: Jogos de Tabuleiro
+        link:
+
+      - item: Programação
+        link:
+
+      - item: Gatos
+        link:
+
+      - item: Viagens
         link:
 
 career-profile:
-    title: Career Profile
+    title: Introdução
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Médico formado pela Faculdade de Medicina da Universidade de São Paulo
+      (FMUSP), tendo trabalhado nas diretorias de 2013 e 2014 do Departamento
+      Científico dessa instituição e da Extensão Médica Acadêmica entre 2012 e
+      2014 como membro, entre 2013 e 2014 como diretor e desde 2018 como
+      discutidor médico.
+
+      Experiência de mais de 2 anos em Estratégia de Saúde da Família, no
+      momento atuando como médico de Equipe de Saúde da Família em Unidade
+      Básica de Saúde da Brasilândia.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: Bacharel em Medicina
+      university: Faculdade de Medicina da Universidade de São Paulo
+      time: 2012 &ndash; 2018
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -80,113 +78,97 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Médico de Estratégia de Saúde da Família
+      time: 2019 &ndash; Presente
+      company: Associação Saúde da Família, São Paulo
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        Atuando como médico generalista da Estratégia de Saúde da Família em
+        Unidade Básica de Saúde mista (ou seja, equipes tanto de ESF como de
+        Estratégia Tradicional) na Brasilândia.
+    - role: Médico de Estratégia de Saúde da Família
+      time: 2018 &ndash; 2019
+      company: APS Santa Marcelina, São Paulo
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        Atuando como médico generalista da Estratégia de Saúde da Família em
+        Unidade Básica de Saúde periférica, na transição municipal e beirando
+        condição rural, na Cidade Tiradentes.
+    - role: Saúde Ocupacional
+      time: "2018"
+      company: LNS, São Paulo
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Realizando exames médicos admissionais e periódicos junto a empresa
+        terceirizada prestando serviço para várias instituições, tendo realizado
+        atendimentos primordialmente em polos da SABESP pela cidade de São Paulo.
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: Projetos
+    intro:
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Guias de UBS
+        link: https://github.com/Nereare/guias-ubs
+        tagline: Algumas tabelas com informações rápidas para consultórios de UBS, assim como modelos de impressos comumente usados no quotidiano da atenção básica.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Modelo de Prontuários
+        link: https://github.com/Nereare/modelos-pront
+        tagline: Uma miscelânea de modelos de evolução de consultas com tópicos específicos.
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Grimoire
+        link: https://github.com/Nereare/Grimoire
+        tagline: Uma quasi-wiki em jekyll para "worldbuilding" orientado para RPGs. (Inglês)
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Nereare's Hearth
+        link: https://nereare.com/
+        tagline: Uma miscelânea de estórias e textos. (Inglês)
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    title: Publicações
+    intro:
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Psychosocial and health-related stressors faced by undergraduate medical students
+        link: http://dx.doi.org/10.11606/issn.1679-9836.v93i3p125-134
+        authors: Pereira NKC, Padoim IS, Júnior RF
+        conference: Revista De Medicina, 93(3), 125-134. 2014.
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Pressão arterial invasiva (Capítulo)
+        link:
+        authors: Kato JM, Padoim IS, Tierno PFGM, Miranda L
+        conference: "In: Ernesto Sasaki Imazuma; Leandro Ryuchi Iuamoto; Alfredo Luiz Jacomo. (Org.). Manual básico de procedimentos médicos hospitalares. 1ed.São Paulo: Editora Atheneu, 2017, v. , p. 179-198."
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Habilidades &amp; Proficiência
 
     toolset:
-      - name: Python & Django
+      - name: Comunicação com Pacientes
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Medicina Interna
         level: 95%
 
-      - name: Ruby on Rails
+      - name: Trabalho em Equipe
+        level: 92%
+
+      - name: Estratégia de Saúde da Família
         level: 85%
 
-      - name: Sketch & Photoshop
+      - name: HTML5 &amp; CSS3
+        level: 85%
+
+      - name: Ruby
+        level: 80%
+
+      - name: JavaScript &amp; jQuery
+        level: 70%
+
+      - name: InDesign
         level: 60%
 
+      - name: Photoshop
+        level: 50%
+
+      - name: Illustrator
+        level: 45%
+
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Design original por <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a><br>
+    Conteúdos e modificações disponíveis sob uma <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR">Licença Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional</a><br>
+    <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR"><img alt="Creative Commons By-ShareAlike 4.0 International Logo" src="assets/images/cc-by-sa-small.svg"></a><br>
+    Proficiências sujeitas à Curva de Dunning-Kruger.

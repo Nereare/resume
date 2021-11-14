@@ -1,0 +1,13 @@
+{
+  "name": "resume",
+  "description": "Meu Curriculum Vitae. :)",
+  "version": "1.0.0",
+  "maintainers": [
+    {
+      "name": "Igor Padoim",
+      "email": "igorpadoim@gmail.com",
+      "web": "https://padoim.com/"
+    }
+  ],
+  "license": "CC-BY-SA-4.0"
+}
