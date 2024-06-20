@@ -81,7 +81,7 @@ education:
 
 experiences:
     - role: Assistente da Clínica Médica
-      time: 2021 &ndash; Presente
+      time: 2021 &ndash; 2024
       company: Sociedade pela Excelência em Serviços Médicos, São Paulo
       details: |
         Atuando como médico assistente no Pronto Socorro do Instituto de
@@ -120,10 +120,6 @@ projects:
       - title: Guias de UBS
         link: https://github.com/Nereare/guias-ubs
         tagline: Algumas tabelas com informações rápidas para consultórios de UBS, assim como modelos de impressos comumente usados no quotidiano da atenção básica.
-
-      - title: Grimoire
-        link: https://github.com/Nereare/Grimoire
-        tagline: Uma quasi-wiki em jekyll para "worldbuilding" orientado para RPGs. (Inglês)
 
       - title: Nereare's Hearth
         link: https://nereare.com/
