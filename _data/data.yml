@@ -1,7 +1,3 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
@@ -9,11 +5,12 @@ sidebar:
     # Profile information
     name: Igor Padoim
     tagline: Médico Generalista
-    avatar: me.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    # > 100px file inside /assets/images/
+    avatar: me.png
 
     # Sidebar links
     email: contato@padoim.com
-    phone:
+    #phone:
     website: padoim.com
     linkedin: igorpadoim
     xing:
@@ -21,7 +18,7 @@ sidebar:
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: # '@Nereare'
+    #twitter: '@Nereare'
     stack-overflow: 3384352/nereare
     codewars:
     goodreads: 50615326-igor-padoim
@@ -32,24 +29,19 @@ sidebar:
         level: Nativo
 
       - idiom: Inglês
-        level: Professional
+        level: TOEFL 102/120
 
     interests:
       - item: Leitura
-        link:
-
+        link: https://www.goodreads.com/user/show/50615326-igor-padoim
       - item: RPG
-        link:
-
+        link: https://www.dndbeyond.com/members/Nereare
       - item: Jogos de Tabuleiro
         link:
-
       - item: Programação
-        link:
-
+        link: https://github.com/Nereare
       - item: Gatos
         link:
-
       - item: Viagens
         link:
 
@@ -62,9 +54,12 @@ career-profile:
       2014 como membro, entre 2013 e 2014 como diretor e entre 2018 e 2021 como
       discutidor médico.
 
-      Experiência de mais de 2 anos em Estratégia de Saúde da Família, no
-      momento atuando como médico assistente no Pronto Socorro de Clínica do
-      Hospital do Servidor Público Estadual.
+      Atuando há mais de 3 anos como médico assistente no Pronto Socorro de
+      Clínica do Hospital do Servidor Público Estadual, tanto no atendimento de
+      demandas espontâneas ("porta") como em cuidados à retaguarda e à sala de
+      Dor Torácica. Há alguns meses exercendo também chefias de plantão no mesmo
+      serviço. Experiência também de mais de 2 anos em Estratégia de Saúde da
+      Família na periferia do município de São Paulo.
 
 education:
     - degree: Bacharel em Medicina
@@ -76,10 +71,24 @@ education:
         sociis natoque penatibus et magnis dis parturient montes, nascetur
         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
         pretium quis, sem.
-          - Bullet point
-          - Bullet point
 
 experiences:
+    - role: Chefe de Plantão
+      time: 2024 &ndash; Atual
+      company: Medic360, São Paulo
+      details: |
+        Atuando como líder imediato da equipe médica do Pronto Socorro do
+        Instituto de Assistência Médica do Servidor Público Estadual, auxiliando
+        com fluxos internos e externos, além de discussões de casos de maior
+        complexidade e mediando relações entre as diversas disciplinas e seus
+        respectivos líderes.
+    - role: Assistente da Clínica Médica
+      time: 2024 &ndash; Atual
+      company: Medic360, São Paulo
+      details: |
+        Atuando como médico assistente no Pronto Socorro do Instituto de
+        Assistência Médica do Servidor Público Estadual, atendendo
+        pacientes de demanda espontânea ("porta").
     - role: Assistente da Clínica Médica
       time: 2021 &ndash; 2024
       company: Sociedade pela Excelência em Serviços Médicos, São Paulo
@@ -114,13 +123,8 @@ projects:
     intro:
     assignments:
       - title: Modelo de Prontuários
-        link: https://github.com/Nereare/modelos-pront
+        link: https://pront.padoim.com/
         tagline: Uma miscelânea de modelos de evolução de consultas com tópicos específicos.
-
-      - title: Guias de UBS
-        link: https://github.com/Nereare/guias-ubs
-        tagline: Algumas tabelas com informações rápidas para consultórios de UBS, assim como modelos de impressos comumente usados no quotidiano da atenção básica.
-
       - title: Nereare's Hearth
         link: https://nereare.com/
         tagline: Uma miscelânea de estórias e textos. (Inglês)
@@ -133,7 +137,6 @@ publications:
         link: http://dx.doi.org/10.11606/issn.1679-9836.v93i3p125-134
         authors: Pereira NKC, Padoim IS, Júnior RF
         conference: Revista De Medicina, 93(3), 125-134. 2014.
-
       - title: Pressão arterial invasiva (Capítulo)
         link:
         authors: Kato JM, Padoim IS, Tierno PFGM, Miranda L
@@ -145,36 +148,29 @@ skills:
     toolset:
       - name: Comunicação com Pacientes
         level: 95%
-
+      - name: Prática Baseada em Evidências
+        level: 90%
       - name: Medicina Interna
         level: 90%
-
       - name: Trabalho em Equipe
         level: 90%
-
-      - name: Estratégia de Saúde da Família
-        level: 75%
-
-      - name: HTML5 &amp; CSS3
+      - name: Educação Médica
         level: 85%
-
+      - name: Níveis de Prevenção
+        level: 70%
+      - name: HTML+CSS+JS
+        level: 85%
       - name: JavaScript &amp; jQuery
         level: 80%
-
       - name: Ruby
         level: 70%
-
-      - name: InDesign
-        level: 40%
-
-      - name: Photoshop
-        level: 30%
-
-      - name: Illustrator
-        level: 30%
+      - name: PHP &amp; Symfony
+        level: 60%
+      - name: MS/Libre Office
+        level: 85%
 
 footer: >
     Design original por <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a><br>
     Conteúdos e modificações disponíveis sob uma <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR">Licença Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional</a><br>
     <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR"><img alt="Creative Commons By-ShareAlike 4.0 International Logo" src="assets/images/cc-by-sa-small.svg"></a><br>
-    Proficiências sujeitas à Curva de Dunning-Kruger.
+    Proficiências sujeitas à <a target="_blank" href="https://pt.wikipedia.org/wiki/Efeito_Dunning%E2%80%93Kruger">Curva de Dunning-Kruger<a>.
